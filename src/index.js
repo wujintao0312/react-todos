@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import './style/base.css'
-import './style/index.css'
+import 'style/base.css'
+import 'style/index.css'
 
 import App from './App'
 
 import { createStore } from 'redux'
-import reducer from './redux/reducer'
+import reducer from 'redux/reducer'
 
 import { Provider } from 'react-redux'
 

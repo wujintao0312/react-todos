@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-import TodoHeader from './components/TodoHeader'
-import TodoMain from './components/TodoMain'
-import TodoFooter from './components/TodoFooter'
+import TodoHeader from 'container/TodoHeader'
+import TodoMain from 'container/TodoMain'
+import TodoFooter from 'container/TodoFooter'
 
 class App extends Component {
   render() {
